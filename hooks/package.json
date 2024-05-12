@@ -1,9 +1,9 @@
 {
-  "name": "hooks",
-  "version": "0.0.1",
-  "description": "npm modules",
+  "name": "@jaymyong66/payments-hooks",
+  "version": "0.0.4",
+  "description": "A library of Custom Hooks for React to enroll payments card information.",
   "type": "module",
-  "types": "dist/index.d.ts",
+  "types": "dist/lib/index.d.ts",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -17,6 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@jaymyong66/payments-hooks": "^0.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -40,5 +41,18 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.0"
+  },
+  "keywords": [
+    "React",
+    "React-payments",
+    "custom-hook",
+    "hooks",
+    "payments-hook"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "JAEWI MYONG",
+    "email": "mjw8941@gmail.com",
+    "url": "https://github.com/JayMyong66"
   }
 }
